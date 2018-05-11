@@ -1,8 +1,8 @@
-/ Pull in required dependencies
+// Pull in required dependencies
 var path = require('path');
 
 // Import the list of friend entries
-var friends = require('../data/friends.js');
+var friends = require('../data/friend.js');
 
 // Export API routes
 module.exports = function(app) {
